@@ -1,0 +1,284 @@
+ @import url("reset.css");
+body > header {
+    color: blue;
+    padding: 20px 0 20px 50px;
+    background-image: url('../assets/images/layout/header-sky.jpg');
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-size: cover ;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 29px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight:100;
+	line-height: 20px;
+    
+    
+}
+
+body > header p{
+    font-size: 20px;
+}
+
+/*#lists li .hem{
+    color:red;
+}
+
+#lists li .kontakt{
+    color:red;
+}*/
+
+body{
+    background-color: #e8eaed;
+}
+#galaria{
+
+   background-color: #ffffff; 
+}
+
+#galaria2{
+   margin: inherit;
+     background-color: #ffffff;
+   
+    
+}
+#imageKanot figure figcaption{
+    
+    font-size: 10px;
+}
+#imagesHavs figure figcaption{
+    font-size: 10px; 
+}
+
+h1 p{
+    
+    /*font-size:70%;*/
+    font-family: serif;
+    
+}
+#galaria2  h3{
+   font-family: serif;
+ color:green;
+    
+   
+    
+}
+
+/* steg 3*/
+
+h2 {
+    text-align: center;
+}
+#galaria{
+    float:right;
+    width: 30%;
+    margin-top: 50px;
+   
+    
+   
+}
+#galaria2{
+ 
+   
+    width: 60%; 
+    border:1px solid white;
+    margin-left: 5%;
+    
+    padding: 5px 5px 5px 5px;
+	display: inline-block;
+	border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px 
+        #888888;
+    margin-top: 15px;
+
+  
+ 
+}
+
+
+
+#imagesHavs{
+
+   /*display: flex;*/
+    float:left
+      
+}
+
+#paragraph3{
+   flex:right;
+  
+    font-family: serif;
+    font-size: 100%;
+
+}
+#paragrap4{
+flex: right;
+      font-size: 100%;
+   /* float:right;*/
+    
+}
+#paragraph5 p{
+    padding-top:60px;
+    
+   /* display:flex;*/
+   
+    
+    
+}
+ /*#galaria img{
+        
+        display:block;
+    }
+     */
+    
+#imageKanot{
+    display:flex;
+    float:left;
+}
+/*
+.img1{
+   padding:0px 10px 0px 50px;
+}
+.img2{
+  padding:0px 10px 0px 50px;   
+}
+.img3{
+padding:0px 10px 0px 50px;
+}*/
+
+
+
+/* Steg4 Navigation*/
+
+#lists ul li a {
+     display:inline-block;
+    float:left;
+    padding:5px  5px 5px 5px;
+   
+   
+    text-decoration: none;
+    background-color: #404040;
+    color: #F6F6E8;
+    
+    
+    
+}
+
+
+
+#lists {
+    
+     background-color: #404040;
+}
+#lists ul li:hover a {
+    color: #00ACE9;
+ 
+    
+}
+#lists ul li .hem {
+    background-color: #00ACE9;
+    
+
+    
+}
+
+
+
+#lists ul .tillbacks{
+    float:right;
+ 
+    
+ 
+    
+}
+#galaria{
+  width:20%;
+ border:1px solid white ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px 
+        #888888;
+    text-align: center;
+}
+
+
+#footer{
+    background-color: white;
+  position: fixed; 
+      bottom: 0;
+    border:
+ border:1px solid white;
+    width:100%;
+text-align: center;
+
+    
+}
+#galaria2 #paragraph2 p {
+
+  color:green;  
+}
+
+
+#galaria2 #paragraph5 p {
+
+  color:green;  
+}
+
+
+/*steg 5*/
+
+
+    
+}
+
+
+
+
+
+#lists nav {
+	background-color: #ccc;
+}
+
+#lists ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#lists nav li {
+	/* om du använder min-width i media query:n så använd display:block */
+	/*display: block;*/
+	
+	display: inline-block;
+    
+}
+
+
+/** För att öka prestandan för mindre skärmar är det rekommenderat att du använder min-width istället för max-width. Här kan det vara bra att tänka på att om du utvecklare för en liten skärm först så sker detta naturligt. **/
+@media ONLY screen AND (max-width:650px) {
+	#lists nav li {
+		
+		/* Om du använder min-width */
+		 /*display: inline-block */
+	}
+    #galaria {
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+    }
+    #galaria2 {
+        margin-left: 10%;
+        width: 80%;
+    }
+    #galaria figure{
+        
+        display:inline-block;
+    }
+     
+    
+    
+    
+}
+
+
+
+
